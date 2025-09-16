@@ -73,6 +73,8 @@ MAX_ATTEMPTS = 5
 RETRY_BASE_DELAY = 1  # in seconds
 MAX_RETRY_DELAY = 120  # in seconds
 BACKOFF_FACTOR = 2
+BATCH_SIZE=100
+CONCURRENCY=5
 ```
 
 ## Prerequisites
